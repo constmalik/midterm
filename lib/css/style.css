@@ -118,7 +118,7 @@ h1 {
 /*TABLE PAGE STYLING*/
 table {
   border: 2px solid;
-  margin: 50px;
+  margin: 10px 250px;
 }
 thead {
   border: 2px solid;
@@ -138,3 +138,13 @@ tbody td {
 
 }
 /*CODEPEN PAGE STYLING*/
+.challenges li {
+  font-size: 32px;
+}
+.challenges a {
+  text-decoration: none;
+  color: black;
+}
+.challenges a:hover {
+  color: pink;
+}
