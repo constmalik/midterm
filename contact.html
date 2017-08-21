@@ -21,7 +21,44 @@
     <header>
       <h1>Midterm</h1>
     </header>
+    <form class="contactform" name="contactForm" action="contact.html" method="post" onSubmit="checkForm()">
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname">
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div>
+        <label for="tel">Phone Number:</label>
+        <input type="tel" name="tel" id="tel">
+      </div>
+      <div class="">
+        <label for="questions">Any Questions?</label>
+        <textarea rows="8" cols="50" id="questions" placeholder="Begin typing here..."></textarea>
+      </div>
+      <div>
+        <label for="color">What color of the rainbow do you prefer?</label>
+        <select class="selectcolor" name="">
+          <option value="Red">Red</option>
+          <option value="Orange">Orange</option>
+          <option value="Yellow">Yellow</option>
+          <option value="Green">Green</option>
+          <option value="Blue">Blue</option>
+          <option value="Indigo">Indigo</option>
+          <option value="Violet">Violet</option>
+        </select>
+      </div>
 
+      <input type="submit" value="Submit">
+    </form>
   </div>
+  <script type="text/javascript" src="lib/js/script.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 </body>
 </html>
