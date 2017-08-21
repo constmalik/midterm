@@ -53,32 +53,41 @@ nav {
   background-color: #CCCCCC;
   height: 50px;
   line-height: 50px;
-  position: relative;
+  /*position: relative;*/
   padding: 10px;
   margin: 0 0 20px 0;
   font-size: 40px;
   text-transform: uppercase;
+  display: block;
+  text-align: left;
 }
 nav a {
   text-decoration: none;
   color: white;
-  border-left: 2px solid;
-  padding: 10px;
+  border-left: 2px solid white;
+
 }
-#dropdwn {
-  border-right: 2px solid;
+.dropdown {
+  position: relative;
+  top: -50px;
+  left: 660px;
 }
 .dropdown-content {
   position: absolute;
-}
-.dropdown-content a {
-  display: none;
-  background-color: purple;
+  display:none;
+  text-align: right;
+  padding: 10px;
 
 }
-a #dropdwn .dropdown-content a{
+.dropdown-content a {
+  text-decoration: none;
+  color: ;
   display: block;
 }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /*BODY STYLE*/
 body {
   background-color: #d0f5fc;
@@ -89,8 +98,20 @@ h1 {
   margin: 25px;
   font-weight: bold;
   font-size: 3em;
+  padding-top: 110px;
+  color: white;
 }
-img {
+/*img {
   width: 600px;
   height: 500px;
+}*/
+/*HOME PAGE STYLING*/
+
+/*CONTACT PAGE STYLING*/
+.contactform {
+  display: inline-block;
+  border: 9px double white;
+  text-align: right;
 }
+/*TABLE PAGE STYLING*/
+/*CODEPEN PAGE STYLING*/
