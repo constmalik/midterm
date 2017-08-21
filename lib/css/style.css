@@ -1,0 +1,18 @@
+/*NAVIGATION BAR*/
+nav {
+  background-color: gray;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+}
+.dropdown-content {
+  position:absolute;
+}
+.dropdown-content a {
+  display: none;
+  background-color: purple;
+
+}
+a #dropdwn .dropdown-content a{
+  display: block;
+}
